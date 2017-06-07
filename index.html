@@ -1,0 +1,776 @@
+<!DOCTYPE html> 
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/CSSPROYECTO.css">
+<link rel="stylesheet" href="fonts.css">
+<title>Cuida el Planeta</title>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temap4.min.css">
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine2/style.css" />
+<script type="text/javascript" src="engine2/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js" type="text/javascript"></script>
+
+<script src="phonegap.js"></script><!-- necesario*/ -->
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head> 
+<body onLoad="MM_preloadImages('imagenes/Mundo.jpg','imagenes/Es nuestra responsabilidad cuidear de ella.jpg','imagenes/ES HOY O NUNCA.jpg','imagenes/No contamines.jpg','imagenes/BIODIVERSIDAD.jpg','imagenes/biodiversidad-biologica.jpg')"> 
+<div data-role="page" id="principal" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <div class="gus">
+   <h1>CUIDA EL PLANETA </h1>
+   </div>
+ </div>
+<br>
+ <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/biodiversidad.jpg" alt="BIODIVERSIDAD" title="BIODIVERSIDAD" id="wows1_0"/></li>
+		<li><img src="data1/images/cuida_al_planeta_porque_despues_te_arrepentiras.jpg" alt="CUIDA AL PLANETA PORQUE DESPUES TE ARREPENTIRAS" title="CUIDA AL PLANETA PORQUE DESPUES TE ARREPENTIRAS" id="wows1_1"/></li>
+		<li><img src="data1/images/cuida.jpg" alt="CUIDA" title="CUIDA" id="wows1_2"/></li>
+		<li><img src="data1/images/dia_de_la_tierra.jpg" alt="DIA DE LA TIERRA" title="DIA DE LA TIERRA" id="wows1_3"/></li>
+		<li><img src="data1/images/dia_mndial_de_la_diversidad.jpg" alt="DIA MNDIAL DE LA DIVERSIDAD" title="DIA MNDIAL DE LA DIVERSIDAD" id="wows1_4"/></li>
+		<li><img src="data1/images/es_tiempo_de_actuar.jpg" alt="ES TIEMPO DE ACTUAR" title="ES TIEMPO DE ACTUAR" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/es_tu_hogar.jpg" alt="image slider" title="ES TU HOGAR" id="wows1_6"/></a></li>
+		<li><img src="data1/images/esta_en_tus_manos_cuidar_de_la_tierra.jpg" alt="ESTA EN TUS MANOS CUIDAR DE LA TIERRA" title="ESTA EN TUS MANOS CUIDAR DE LA TIERRA" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="BIODIVERSIDAD"><span><img src="data1/tooltips/biodiversidad.jpg" alt="BIODIVERSIDAD"/>1</span></a>
+		<a href="#" title="CUIDA AL PLANETA PORQUE DESPUES TE ARREPENTIRAS"><span><img src="data1/tooltips/cuida_al_planeta_porque_despues_te_arrepentiras.jpg" alt="CUIDA AL PLANETA PORQUE DESPUES TE ARREPENTIRAS"/>2</span></a>
+		<a href="#" title="CUIDA"><span><img src="data1/tooltips/cuida.jpg" alt="CUIDA"/>3</span></a>
+		<a href="#" title="DIA DE LA TIERRA"><span><img src="data1/tooltips/dia_de_la_tierra.jpg" alt="DIA DE LA TIERRA"/>4</span></a>
+		<a href="#" title="DIA MNDIAL DE LA DIVERSIDAD"><span><img src="data1/tooltips/dia_mndial_de_la_diversidad.jpg" alt="DIA MNDIAL DE LA DIVERSIDAD"/>5</span></a>
+		<a href="#" title="ES TIEMPO DE ACTUAR"><span><img src="data1/tooltips/es_tiempo_de_actuar.jpg" alt="ES TIEMPO DE ACTUAR"/>6</span></a>
+		<a href="#" title="ES TU HOGAR"><span><img src="data1/tooltips/es_tu_hogar.jpg" alt="ES TU HOGAR"/>7</span></a>
+		<a href="#" title="ESTA EN TUS MANOS CUIDAR DE LA TIERRA"><span><img src="data1/tooltips/esta_en_tus_manos_cuidar_de_la_tierra.jpg" alt="ESTA EN TUS MANOS CUIDAR DE LA TIERRA"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<br>
+ <div data-role="main" class="ui-content">
+ <div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+   <a href="#page3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <div class="po">
+   <h2>Dia de la Tierra</h2>
+   </div>
+   </a>
+  </li>
+  
+  </ul>
+ </div>
+ </div>
+
+ 
+ <div data-role="main" class="ui-content">
+ <div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+   <a href="#page2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <div class="pli">
+   <h2>Historia  del dia Internacional de la Tierra </h2>
+   </div>
+   </a>
+  </li>
+  
+  </ul>
+ </div>
+ </div>
+ 
+ 
+  <div data-role="main" class="ui-content">
+ <div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+   <a href="#page5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <div class="pli">
+   <h2>Dia Internacional de la Biodiversidad</h2>
+   </div>
+   </a>
+  </li>
+  
+  </ul>
+ </div>
+ </div>
+ 
+ 
+  <div data-role="main" class="ui-content">
+ <div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+   <a href="#page6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <div class="pli">
+   <h2>¿Que es Biodiversidad?</h2>
+   </div>
+   </a>
+  </li>
+  
+  </ul>
+ </div>
+ </div>
+ 
+ 
+  <div data-role="main" class="ui-content">
+ <div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+   <a href="#page7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <div class="pli">
+   <h2>Conciencia Ecologica</h2>
+   </div>
+   </a>
+  </li>
+  
+  </ul>
+ </div>
+ </div>
+ 
+ 
+  <div data-role="main" class="ui-content">
+ <div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+   <a href="#page8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <div class="pli">
+   <h2>Para ver mas información visita estas paginas</h2>
+   </div>
+   </a>
+  </li>
+  
+  </ul>
+ </div>
+ </div>
+ 
+  <div data-role="main" class="ui-content">
+ <div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+   <a href="#page9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <div class="pli">
+   <h2>Causas y Consecuencias del no cuidar el medio Ambiente</h2>
+   </div>
+   </a>
+  </li>
+  
+  </ul>
+ </div>
+ </div>
+ 
+ 
+ <div data-role="main" class="ui-content">
+ <div>
+  <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-a">
+   <li class="ui-first-child ui-last-child">
+   <a href="#page10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <div class="to">
+   <h2>Datos</h2>
+   </div>
+   </a>
+  </li>
+  
+  </ul>
+ </div>
+ </div>
+ <br>
+ 
+ <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container2">
+<div class="ws_images"><ul>
+		<li><img src="data2/images/dia_mundial_de_la_tierra.jpg" alt="Dia mundial de la Tierra" title="Dia mundial de la Tierra" id="wows2_0"/></li>
+		<li><img src="data2/images/es_nuestra_responsabilidad_cuidear_de_ella.jpg" alt="Es nuestra responsabilidad cuidear de ella" title="Es nuestra responsabilidad cuidear de ella" id="wows2_1"/></li>
+		<li><img src="data2/images/esta_en_tus_manos_cuidar_de_la_tierra.jpg" alt="ESTA EN TUS MANOS CUIDAR DE LA TIERRA" title="ESTA EN TUS MANOS CUIDAR DE LA TIERRA" id="wows2_2"/></li>
+		<li><img src="data2/images/mundo.jpg" alt="Mundo" title="Mundo" id="wows2_3"/></li>
+		<li><img src="data2/images/naturaleza.jpg" alt="Naturaleza" title="Naturaleza" id="wows2_4"/></li>
+		<li><img src="data2/images/no_contamines.jpg" alt="No contamines" title="No contamines" id="wows2_5"/></li>
+		<li><img src="data2/images/no_destriyas_tu_hogar.jpg" alt="NO DESTRIYAS TU HOGAR" title="NO DESTRIYAS TU HOGAR" id="wows2_6"/></li>
+		<li><img src="data2/images/nuestro_hogar.jpg" alt="Nuestro Hogar" title="Nuestro Hogar" id="wows2_7"/></li>
+		<li><img src="data2/images/planeta_tierra.jpg" alt="Planeta Tierra" title="Planeta Tierra" id="wows2_8"/></li>
+		<li><img src="data2/images/plantita.jpg" alt="plantita" title="plantita" id="wows2_9"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data2/images/protegela.jpg" alt="slider" title="PROTEGELA" id="wows2_10"/></a></li>
+		<li><img src="data2/images/tierra.jpg" alt="TIERRA" title="TIERRA" id="wows2_11"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="Dia mundial de la Tierra"><span><img src="data2/tooltips/dia_mundial_de_la_tierra.jpg" alt="Dia mundial de la Tierra"/>1</span></a>
+		<a href="#" title="Es nuestra responsabilidad cuidear de ella"><span><img src="data2/tooltips/es_nuestra_responsabilidad_cuidear_de_ella.jpg" alt="Es nuestra responsabilidad cuidear de ella"/>2</span></a>
+		<a href="#" title="ESTA EN TUS MANOS CUIDAR DE LA TIERRA"><span><img src="data2/tooltips/esta_en_tus_manos_cuidar_de_la_tierra.jpg" alt="ESTA EN TUS MANOS CUIDAR DE LA TIERRA"/>3</span></a>
+		<a href="#" title="Mundo"><span><img src="data2/tooltips/mundo.jpg" alt="Mundo"/>4</span></a>
+		<a href="#" title="Naturaleza"><span><img src="data2/tooltips/naturaleza.jpg" alt="Naturaleza"/>5</span></a>
+		<a href="#" title="No contamines"><span><img src="data2/tooltips/no_contamines.jpg" alt="No contamines"/>6</span></a>
+		<a href="#" title="NO DESTRIYAS TU HOGAR"><span><img src="data2/tooltips/no_destriyas_tu_hogar.jpg" alt="NO DESTRIYAS TU HOGAR"/>7</span></a>
+		<a href="#" title="Nuestro Hogar"><span><img src="data2/tooltips/nuestro_hogar.jpg" alt="Nuestro Hogar"/>8</span></a>
+		<a href="#" title="Planeta Tierra"><span><img src="data2/tooltips/planeta_tierra.jpg" alt="Planeta Tierra"/>9</span></a>
+		<a href="#" title="plantita"><span><img src="data2/tooltips/plantita.jpg" alt="plantita"/>10</span></a>
+		<a href="#" title="PROTEGELA"><span><img src="data2/tooltips/protegela.jpg" alt="PROTEGELA"/>11</span></a>
+		<a href="#" title="TIERRA"><span><img src="data2/tooltips/tierra.jpg" alt="TIERRA"/>12</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slideshow</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine2/wowslider.js"></script>
+<script type="text/javascript" src="engine2/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+  <br>
+ 
+ <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+   <h4>Cuida el Planeta</h4>
+    <img src="res/android/mdpi.png" width="56" height="46">
+    <h4>Clara Vanessa Camacho Tlatelpa</h4>
+   </div>
+  </div>
+  
+<div data-role="page" id="page3" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Dia Mundial de la Tierra 22 de Abril de cada Año</h1>
+   </div>
+   <div class="texto">
+   <p>22 de Abril - Día Mundial de la Tierra</p>
+   </div>
+   <br>
+<div class="pulga">
+	
+<p>El 22 de abril de cada año se celebra el nacimiento del movimiento ambientalista moderno, el cual se inició en 1970 cuando 20 millones de norteamericanos tomaron las calles, los parques y los auditorios para manifestarse por un ambiente saludable y sustentable.
+<br>
+
+ El Día de la Tierra de 1970 logró una coincidencia política que parecía imposible. Ese día condujo a la creación de la Agencia de Protección al Medio Ambiente de Estados Unidos y a la aprobación de leyes relacionadas con el aire limpio, el agua limpia y la conservación de especies en peligro de extinci&aocute;n. A partir de entonces, cada año en esta fecha, el mundo entero reflexiona y se moviliza por una Tierra mejor.
+<br>
+
+Hasta este siglo pocos pensaron que los seres humanos, viviendo en una extensión de tierra aparentemente sin límites y con agua abundante, podrían causar daños irreparables al medio ambiente. Sin embargo hoy los gobiernos y la gente en general en todo el mundo luchan con la erosión costera, los derrames de petróleo y la contaminación del agua potable, en tanto que cuestiones como el crecimiento de la población, la deforestación, la lluvia ácida y la posibilidad de rápidos cambios climáticos significan decisiones difíciles para el futuro.
+<br>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','imagenes/Mundo.jpg',1)"><img src="imagenes/Naturaleza.jpg" width="600" height="361" id="Image21">
+</a>
+<br>
+En 1975 un grupo internacional de estudio reunido en Belgrado, Yugoslavia, propuso un marco de referencia mundial para la educación ambiental, el cual se llamó la "Carta de Belgrado". Esta Carta afirma que la meta de la educación ambiental es hacer que la población mundial se preocupe por el medio ambiente y tenga el conocimiento y la dedicación que la capacite para buscar soluciones a los problemas actuales y prevenir problemas nuevos. </p>
+   <br>
+<div class="imagenes">
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image22','','imagenes/Es nuestra responsabilidad cuidear de ella.jpg',1)"><img src="imagenes/ESTA EN TUS MANOS CUIDAR DE LA TIERRA.jpg" width="286" height="176" id="Image22"></a>
+ </div>
+ <div class="image">
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image23','','imagenes/ES HOY O NUNCA.jpg',1)"><img src="imagenes/TIERRA.jpg" width="259" height="194" id="Image23"></a>
+ </div>
+ <div class="imag">
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image24','','imagenes/No contamines.jpg',1)"><img src="imagenes/DIA MNDIAL DE LA DIVERSIDAD.jpg" width="285" height="177" id="Image24"></a>
+ </div>
+ </div>
+ 
+  
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Cuida el Planeta</h4>
+        <img src="res/android/mdpi.png"  width="56" height="46">
+         <h4>Clara Vanessa Camacho Tlatelpa</h4>
+    </div>
+</div>
+ 
+ 
+<div data-role="page" id="page2" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Historia  del dia Internacional de la Tierra</h1>
+   </div>
+   <div class="texto">
+       <p>La historia del Día Mundial de la Tierra
+
+El origen de este día, celebrado mundialmente (aunque no en todas partes), se encuentra en Estados Unidos, durante los 70. Y está asociado, sin duda, a un nombre: Gaylord Nelson. La historia cuenta (a pesar de los curiosos rumores sobre Lenin) que fue este político quién aprovechó un miércoles para organizar una manifestación en defensa del medio ambiente y el ecologismo. Un momento muy estudiado y que venía cociéndose desde la década de los 60 debido a la creciente irresponsabilidad ambiental del gobierno de Estados Unidos. Ya habían gérmenes plantados desde la comunidad científica y estudiantil. Ese miércoles los estudiantes y trabajadores se unieron en una manifestación pacífica que pretendía rendir homenaje y mostrar la preocupación colectiva sobre temas como el medio ambiente, la superpoblación o la conservación de la biodiversidad.</p>
+   <div data-role="collapsible" data-content-theme="false">
+            	<h1>Manifestacion</h1>
+                  
+                 <img src="imagenes/dia-de-la-tierra-70-610x749.jpg" width="500px"> </div>
+ 
+ <div data-role="collapsible" data-content-theme="false">
+            	<h1>Biodiversidad</h1>
+                  
+                 <img src="imagenes/No contamines.jpg" width="500px"> </div>
+ 
+ 
+  </div>
+  <img src="imagenes/185448-3584-8.jpg"
+  width="300px">
+  <img src="imagenes/Dia mundial de la Tierra.jpg"
+  width="300px">
+  <img src="imagenes/Biodiversidad-300x179.jpg"
+  width="300px">
+  <img src="imagenes/DIA DE LA TIERRA (1).jpg"
+  width="300px">
+  <img src="imagenes/dia-tierra-pagina.jpg"
+  width="300px">
+  <img src="imagenes/images (1).jpg"
+  width="300px">
+ 
+
+
+ 
+  
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Cuida el Planeta</h4>
+        <img src="res/android/mdpi.png"  width="56" height="46">
+         <h4>Clara Vanessa Camacho Tlatelpa</h4>
+    </div>
+</div>
+
+
+
+<div data-role="page" id="page5" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Día Internacional de la Biodiversidad</h1>
+   </div>
+   <div class="texto">
+   <p>22 de Mayo - Día Internacional de la Biodiversidad. Las Naciones Unidas proclamaron el 22 de mayo como día Internacional de la Diversidad Biológica, fecha que es celebrada en Venezuela con un honroso décimo lugar en todo el planeta, con la mayor variedad de animales, plantas y ecosistemas.</p>
+<br>
+
+<p>  Protejamos la biodiversidad</p>
+<br>
+
+<p>La crisis de la biodiversidad es en gran medida resultado de la actividad humana y representa una amenaza seria al desarrollo humano. Pese a los renovados esfuerzos de estos últimos veinte años, la pérdida de diversidad biológica, a consecuencia de la destrucción de los habitats naturales, la agricultura intensiva o la contaminación, ha seguido su curso inexorable. Es necesario actuar para salvar lo que queda.</p>
+   
+   <div data-role="collapsible" data-content-theme="false">
+            	<h1>Biodiversidad </h1>
+                  
+                 <img src="imagenes/Biodiversidad-300x179.jpg" width="500px"> </div>
+ 
+ <div data-role="collapsible" data-content-theme="false">
+            	<h1>Es tu Hogar</h1>
+                  
+                 <img src="imagenes/185448-3584-8.jpg" width="500px"> </div>
+ 
+ <img src="imagenes/01-portada-249.jpg"
+ width="300">
+ <img src="imagenes/0.1"
+ width="300">
+ <img src="imagenes/images (2).jpg"
+ width="300">
+ <img src="imagenes/dia-tierra-pagina.jpg"
+ width="300">
+ <img src="imagenes/TIERRAMADRE.jpg"
+ width="300">
+ <img src="imagenes/Día de la biodiversidad.jpg"
+ width="300">
+ 
+ 
+   </div>
+ 
+
+
+ 
+  
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Cuida el Planeta</h4>
+        <img src="res/android/mdpi.png"  width="56" height="46">
+         <h4>Clara Vanessa Camacho Tlatelpa</h4>
+    </div>
+</div>
+
+
+
+<div data-role="page" id="page6" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>¿Que es la Biodiversidad?</h1>
+   </div>
+   <div class="texto">
+   <p>¿Qué es la biodiversidad?</p>
+   
+<p>La diversidad biológica, o biodiversidad, es el término por elque se hace referencia a la amplia variedad de seres vivos sobre la Tierra y los patrones naturales que conforma. La diversidad biológica que observamos hoy es el fruto de miles de millones de años de evolución, moldeada por procesos naturales y, cada vez más, por la influencia del ser humano. Esta diversidad forma la red vital de la cual somos parte integrante y de la cual tanto dependemos.
+
+Con frecuencia, se entiende por diversidad la amplia variedad de plantas, animales y microorganismos existentes. Hasta la fecha, se han identificado unos 1,75 millones de especies, en su mayor parte criaturas pequeñas, por ejemplo, insectos. Los científicos reconocen que en realidad hay cerca de 13 millones de especies, si bien las estimaciones varían entre 3 y 100 millones.
+
+La diversidad biológica incluye también las diferencias gen”ticas dentro de cada especie, por ejemplo, entre las variedades de cultivos y las razas de ganado. Los cromosomas, los genes y el ADN, es decir, los componentes vitales, determinan la singularidad de cada individuo y de cada especie.
+
+Otro aspecto adicional de la diversidad biológica es la variedad de ecosistemas, por ejemplo, los que se dan en los desiertos, los bosques, los humedales, las montañas, los lagos, los ríos y paisajes agrícolas. En cada ecosistema, los seres vivos, entre ellos, los seres humanos, forman una comunidad, interactúan entre sí, asi como con el aire, el agua y el suelo que les rodea.
+
+Es esta combinación de formas de vida y sus interacciones mutuas y con el resto del entorno que ha hecho de la Tierra un lugar habitable y único para los seres humanos. La diversidad biológica ofrece un gran número de bienes y servicios que sustentan nuestra vida.</p>
+<div data-role="collapsible" data-content-theme="false">
+            	<h1>La biodiversidad </h1>
+                  
+                 <img src="imagenes/BIODIVERSIDAD.jpg" width="500px"> </div>
+ 
+ <div data-role="collapsible" data-content-theme="false">
+            	<h1>Protegela</h1>
+                  
+                 <img src="imagenes/ES HOY O NUNCA.jpg" width="500px"> </div>
+                 
+                 
+ <img src="imagenes/media_thumb_galeria_noticia_86.jpg"
+ width="300">
+  <img src="imagenes/madre.jpg"
+ width="300">
+  <img src="imagenes/maxresdefault.jpg"
+ width="300">
+  <img src="imagenes/mar.jpg"
+ width="300">
+  <img src="imagenes/Los-mas-Hermosos-Paisajes-Naturales_05.jpg"
+ width="300">
+  <img src="imagenes/tierra (1).jpg"
+ width="300">
+                 
+
+
+   </div>
+ 
+
+
+ 
+  
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Cuida el Planeta</h4>
+        <img src="res/android/mdpi.png"  width="56" height="46">
+         <h4>Clara Vanessa Camacho Tlatelpa</h4>
+    </div>
+</div>
+
+
+
+<div data-role="page" id="page7" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Conciencia Ecologica</h1>
+   </div>
+   <div class="texto">
+   <p>Qué es la conciencia ecológica. A partir del momento en que el hombre comenzó a apropiarse de la naturaleza para darle forma a sus necesidades y caprichos, los ecosistemas de todo el planeta dieron su respuesta ante este tipo de abusos, a través de consecuencias negativas como la contaminación y la pérdida de biodiversidad.
+   <br>
+
+Hoy en día podemos conocer, a través de los medios de comunicación, todas las noticias referentes al cambio climático. Pero ante la inevitable realidad ¿cuántos de nosotros nos sentimos responsables -y actuamos en consecuencia- por los daños que estamos causando al planeta?
+<br>
+
+
+Justamente, tener conciencia ecológica es entender que somos dependientes de la naturaleza y responsables por su estado de conservación. Ignorar esta verdad equivale a autodestruirnos, porque al degradar el medio ambiente estamos empeorando nuestra calidad de vida y poniendo en peligro el futuro de nuestros descendientes.</p>
+<div data-role="collapsible" data-content-theme="false">
+            	<h1>Conciencia Ecologica </h1>
+                  
+                 <img src="imagenes/hd-Earth-Day-2011-2-The-Home-Depot-Blog.jpg" width="500px"> </div>
+ 
+ <div data-role="collapsible" data-content-theme="false">
+            	<h1>Conciencia Ecologica</h1>
+                  
+                 <img src="imagenes/tierra-familia-shutterstock-1024x1024.jpg"width="500px"> </div>
+                 
+   
+ <img src="imagenes/Depositphotos_9140972_original.jpg"
+ width="300">
+  <img src="imagenes/tutela_ambiente.jpg"
+ width="300">
+  <img src="imagenes/bosque-2.jpg"
+ width="300">
+  <img src="imagenes/ahorroenergia.jpg"
+ width="300">
+  <img src="imagenes/Conciencia-ambiental.jpg"
+ width="300">
+  <img src="imagenes/399248.jpg"
+ width="300">                
+                 
+                 
+
+
+
+
+   </div>
+ 
+
+
+ 
+  
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Cuida el Planeta</h4>
+        <img src="res/android/mdpi.png"  width="56" height="46">
+         <h4>Clara Vanessa Camacho Tlatelpa</h4>
+    </div>
+</div>
+
+
+
+<div data-role="page" id="page8" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Link</h1>
+   </div>
+   
+   <div data-role="content" align="center">
+    
+
+     <div data-role="main" class="ui-content" align="center">
+   <div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+  	<li class="ui-first-child ui-last-child">
+    	<a href="http://www.un.org/es/events/motherearthday/" data-role="button" id="beep" target="_self">
+        <h5><p>Dia internacional</p>
+        <p> de la tierra</p> </h5>
+        <img src="imagenes/ESTA EN TUS MANOS CUIDAR DE LA TIERRA.jpg" width="50%">
+        </a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+    	<a href="http://www.un.org/es/events/biodiversityday/" data-role="button" id="vibrar" target="_self">
+        <h5>Dia de la</h5>
+        <h5> Biodiversidad </h5>
+        <img src="imagenes/Día de la biodiversidad.jpg"
+        width="50%">
+    	</a>
+        </li>
+         <li class="ui-first-child ui-last-child">
+    	<a href="https://hipertextual.com/2015/04/dia-de-la-tierra-2015" data-role="button" id="vibrar" target="_self">
+        <h5><p>Historia del</p> 
+        <p>dia Internacional</p>
+         <p>de la Tierra</p> </h5>
+        <img src="imagenes/Dia mundial de la Tierra.jpg"
+         width="50%">
+         
+    	</a>
+        </li>
+         <li class="ui-first-child ui-last-child">
+    	<a href="http://www.biodiversidad.gob.mx/biodiversidad/que_es.html" data-role="button" id="vibrar" target="_self">
+        <h5>
+          <p>La Biodiversidad</p>
+        </h5>
+        <img src="imagenes/1400915251_22-mays.jpg"
+        width="50%">
+        </a>
+        </li>
+        <li class="ui-first-child ui-last-child">
+    	<a href="https://www.importancia.org/biodiversidad.php" data-role="button" id="vibrar" target="_self">
+        <h5>
+          <p>Importancia de la Biodiversiadad</p></h5>
+          <img src="imagenes/Biodiversidad-300x179.jpg"
+          width="50%">
+        </a>
+        </li>
+         <li class="ui-first-child ui-last-child">
+    	<a href="https://www.ocio.net/estilo-de-vida/ecologismo/que-es-la-conciencia-ecologica/" data-role="button" id="vibrar" target="_self">
+        <h5>
+          <p>Conciencia Ecologica</p></h5>
+          <img src="imagenes/CUIDA.jpg"
+          width="50%">
+        </a>
+        </li>
+         <li class="ui-first-child ui-last-child">
+    	<a href="http://www.taringa.net/posts/info/17887022/Por-que-debemos-cuidar-el-medio-ambiente-Entra.html" data-role="button" id="vibrar" target="_self">
+        <h5>
+          <p>Porque cuidar</p>
+          <p>el medio</p>
+          <p> Ambiente</p>
+        </h5>
+        <img src="imagenes/plantita.jpg"
+        width="50%">
+        </a>
+        </li>
+         <li class="ui-first-child ui-last-child">
+    	<a href="http://concienciaecolgica.blogspot.mx/2010/06/importancia-de-la-ecologia.html" data-role="button" id="vibrar" target="_self">
+        <h5>
+          <p>Importancia de </p>
+          <p>conciencia Ecologica</p>
+        </h5>
+        <img src="imagenes/DIA MNDIAL DE LA DIVERSIDAD.jpg"
+        width="50%">
+        </a>
+        </li>
+        </ul>
+        </div>
+   </div>
+   </div>
+ 
+
+
+ 
+  
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Cuida el Planeta</h4>
+        <img src="res/android/mdpi.png"  width="56" height="46">
+         <h4>Clara Vanessa Camacho Tlatelpa</h4>
+    </div>
+</div>
+
+
+<div data-role="page" id="page9" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+    <h1>Causas y Consecuencias del medio Ambiente </h1>
+   </div>
+   <div class="texto">
+   <p>Causas y consecuencias de la contaminación</p>
+
+
+<p>CAUSAS</p>
+<br>
+<p>Los principales causantes de la contaminación ambiental son:
+• desechos sólidos domésticos
+• desechos sólidos industriales
+• exceso de fertilizante y productos químicos
+• tala
+• quema
+• basura
+• el monóxido de carbono de los vehículos
+• desagües de aguas negras o contaminadas al mar o ríos
+Muchas de las causas del deterioro ambiental es debido a : la sobreexplotación , destrucción del hábitat , la contaminación , la erosión y la deforestacion . Estudios realizados dicen que el deterioro del medio ambiente provoca el 21% de los problemas de salud que sufre la población mundial .</p>
+<br>
+
+<p>Consecuencias</p>
+<br>
+<p>La contaminación ambiental deteriora cada vez mas a nuestro planeta y a nosotros mismos pues según investigaciones al respirar el aire contaminado esto afecta nuestra salud cardiovascular
+por lo que normas estrictas de aire limpio contribuirían a una mejor salud con efectos en gran escala. 
+Otra consecuencia es el debilitamiento de la capa de ozono, que protege a los seres vivos de la radiación ultravioleta del Sol, debido a la destrucción del ozono estratosférico y esto provoca el calentamiento global.La contaminacion al medio atenta contra la vida de plantas, animales y personas, genera daños físicos en los individuos, convierte en un elemento no consumible al agua
+y hace que en los suelos contaminados no sea posible la siembra. Esto afecta  a demás el clima y las actividades realizadas por el ser humano dañandolo y perjudicándole</p>
+   <div data-role="collapsible" data-content-theme="false">
+            	<h1>Causas</h1>
+                  
+                 <img src="imagenes/El-Lago-Maracaibo-de-Venezuela-cuenta-con-13.820-km-totalmente-contaminados.jpg.jpg"width="500px"> </div>
+ 
+ <div data-role="collapsible" data-content-theme="false">
+            	<h1>Consecuencias</h1>
+                  
+                 <img src="imagenes/pezacados.jpg"width="500px"> </div>
+                 
+   <img src="imagenes/descarga.jpg"
+ width="300">
+  <img src="imagenes/deforestacion-las-consecuencias-para-el-medio-ambiente-650x487.jpg"
+ width="300">
+  <img src="imagenes/contaminacion josantonius.jpg"
+ width="300">
+  <img src="imagenes/7166_15_114129.jpg"
+ width="300">
+  <img src="imagenes/1817812.jpg"
+ width="300">
+  <img src="imagenes/Causas2.png"
+ width="300">                
+                 
+                               
+                 
+   
+   
+   
+   </div>
+ 
+
+
+ 
+  
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Cuida el Planeta</h4>
+        <img src="res/android/mdpi.png"  width="56" height="46">
+         <h4>Clara Vanessa Camacho Tlatelpa</h4>
+    </div>
+</div>
+
+<div data-role="page" id="page10" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>DATOS</h1>
+   </div>
+   <div class="moca">
+   <p>Nombre</p>
+   <p>Clara Vanessa Camacho Tlatelpa</p>
+   <img src="imagenes/12189953_753402721471934_8817111952310720723_n.jpg" width="100px">
+   <br>
+   <p>Grado y Grupo</p>
+   <p>"4E"</p>
+   <br>
+   <p>Submodulo</p>
+   <p>Desarrolla Aplicaciones Moviles</p>
+   <p>"DAM"</p>
+   <br>
+   <p>Profesor</p>
+   <p>Lic. Jose Arturo Gómez Hernandez</p>
+   <img src="imagenes/18945233_1198575783597799_2057922405_n.png"
+   width="100px">
+   </div>
+ 
+
+
+ 
+  
+  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <h4>Cuida el Planeta</h4>
+        <img src="res/android/mdpi.png"  width="56" height="46">
+         <h4>Clara Vanessa Camacho Tlatelpa</h4>
+    </div>
+</div>
+
+
+
+
+ 
+ 
+ 
+ 
+<div data-role="page" id="page4" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <div class="tu">
+    <h1>Dia Internacional de la Biodiversidad</h1>
+   </div>
+   </div>
+     <div class="tex">
+   <p>22 de Mayo </p>
+   </div>
+   <br>
+<div class="pu">
+<p>22 de Mayo - Día Internacional de la Biodiversidad. Las Naciones Unidas proclamaron el 22 de mayo como día Internacional de la Diversidad Biológica, fecha que es celebrada en Venezuela con un honroso décimo lugar en todo el planeta, con la mayor variedad de animales, plantas y ecosistemas.</p>
+</div>
+<div class="poni">
+<p> ¿Qué es la biodiversidad?</p>
+</div>
+<br>
+<div class="tipo">
+<p>
+La diversidad biológica, o biodiversidad, es el término por elque se hace referencia a la amplia variedad de seres vivos sobre la Tierra y los patrones naturales que conforma. La diversidad biológica que observamos hoy es el fruto de miles de millones de años de evolución, moldeada por procesos naturales y, cada vez más, por la influencia del ser humano. Esta diversidad forma la red vital de la cual somos parte integrante y de la cual tanto dependemos.
+
+Con frecuencia, se entiende por diversidad la amplia variedad de plantas, animales y microorganismos existentes. Hasta la fecha, se han identificado unos 1,75 millones de especies, en su mayor parte criaturas pequeñas, por ejemplo, insectos. Los científicos reconocen que en realidad hay cerca de 13 millones de especies, si bien las estimaciones varían entre 3 y 100 millones.
+
+La diversidad biológica incluye también las diferencias gen”ticas dentro de cada especie, por ejemplo, entre las variedades de cultivos y las razas de ganado. Los cromosomas, los genes y el ADN, es decir, los componentes vitales, determinan la singularidad de cada individuo y de cada especie.
+<br>
+
+Otro aspecto adicional de la diversidad biológica es la variedad de ecosistemas, por ejemplo, los que se dan en los desiertos, los bosques, los humedales, las montañas, los lagos, los ríos y paisajes agrícolas. En cada ecosistema, los seres vivos, entre ellos, los seres humanos, forman una comunidad, interactúan entre sí, asi como con el aire, el agua y el suelo que les rodea.
+
+Es esta combinación de formas de vida y sus interacciones mutuas y con el resto del entorno que ha hecho de la Tierra un lugar habitable y único para los seres humanos. La diversidad biológica ofrece un gran número de bienes y servicios que sustentan nuestra vida.
+
+El valor de la diversidad biológica
+La protección de la diversidad biológica es un tema de nuestro interes. Los recursos biológicos son los pilares que sustentan las civilizaciones. Los productos de la naturaleza sirven de base a industrias tan diversas como la agricultura, la cosm”tica, la farmaceútica, la industria de pulpa y papel, la horticultura, la construcción y el tratamiento de desechos. La pérdida de esta diversidad biológica amenaza nuestros suministros alimentarios, nuestras posibilidades de recreación y turismo y nuestras fuentes de madera, medicamentos y energía. También interfiere con las funciones ecológicas esenciales.
+<br>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image49','','imagenes/BIODIVERSIDAD.jpg',1)"><img src="imagenes/3b91e1_Diversidad-2.jpg" width="700" height="388" id="Image49"></a>
+<br>
+ Nuestra necesidad de componentes de la naturaleza de los cuales una vez hicimos caso omiso con frecuencia es importante e imprevisible. De vez en cuando nos hemos precipitado de vuelta la despensa de la naturaleza para curar nuestras enfermedades, o a las infusiones de genes resistentes procedentes de plantas silvestres, para salvar nuestros cultivos de las incursiones de las plagas. Es más, la amplia gama de interacciones entre los diversos componentes de la diversidad biológica es lo que permite que el planeta pueda estar habitado por todas las especies, incluidos los seres humanos. Nuestra salud individual, y la salud de nuestra economía y de la sociedad humana, dependen del continuo suministo de los diversos servicios que nos brinda la naturaleza, y que serían sumamente costosos o imposibles de reemplazar. Estos servicios naturales son tan variados, y prácticamente infinitos. Por ejemplo, sería casi imposible sustituir, en gran medida, el control de plagas que cumplen diversas criaturas que integran la cadena alimentaria, o la polinización que llevan a cabo los insectos y las aves en su actividad cotidiana.
+
+Protejamos la biodiversidad
+La crisis de la biodiversidad es en gran medida resultado de la actividad humana y representa una amenaza seria al desarrollo humano. Pese a los renovados esfuerzos de estos últimos veinte años, la pérdida de diversidad biológica, a consecuencia de la destrucción de los habitats naturales, la agricultura intensiva o la contaminación, ha seguido su curso inexorable. Es necesario actuar para salvar lo que queda.</p>
+</div>
+<br>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image50','','imagenes/biodiversidad-biologica.jpg',1)"><img src="imagenes/1400915251_22-mays.jpg" width="100%"  id="Image50"></a> 
+ </div>
+ 
+
+
+     <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+     <h4> Cuida el Planeta</h4>
+             <img src="res/android/mdpi.png"  width="56" height="46">
+               <h4>Clara Vanessa Camacho Tlatelpa</h4>
+    </div>
+    </div>
+    
+</body>
+</html>

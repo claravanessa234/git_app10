@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+.texto{
+	font-family:chiller;
+	font-size:50px;
+	text-align:center;
+	color:#FFF;
+}
+.pulga{
+	font-family:chiller;
+	text-align:center;
+	color:#FFF;
+	font-size:36px;
+	
+}
+.contenido{
+	text-align:center;
+	font-family:chiller;
+	font-size:74px;
+	color:#FFF;
+}
+.imagenes{
+	top:90;
+	left:50;
+	
+}
+.image{
+	top:90;
+	left:20;
+	
+}
+.imag{
+	top:90;
+	left:90;
+	
+}
+.po{
+	color:#FFF;
+	font-family:"Comic Sans MS", cursive;
+	font-size:20px;
+}
+.to{
+	color:#FFF;
+	font-family:"Comic Sans MS", cursive;
+	font-size:20px;
+	
+}
+.pli{
+	color:#FFF;
+	font-family:"Comic Sans MS", cursive;
+	font-size:20px;
+}
+.tex{
+	color:#FFF;
+	font-family:chiller;
+	font-size:60px;
+	text-align:center;
+}
+.pu{
+	color:#FFF;
+	text-align:center;
+	font-family:chiller;
+	font-size:36px;	
+}
+.poni{
+	color:#FFF;
+	text-align:center;
+	font-family:chiller;
+	font-size:50px;
+	
+	
+}
+.tipo{
+	color:#FFF;
+	font-family:chiller;
+	text-align:center;
+	font-size:36px;
+	
+}
+.tu{
+	color:#FFF;
+	font-family:chiller;
+	font-size:36px;
+	text-align:center;
+}
+.gus{
+	color:#FFF;
+	font-family:chiller;
+	font-size:20px;
+	text-align:center;
+}
+.moca{
+	text-align:center;
+	font-family:chiller;
+	font-size:50px;
+	color:#CCC;	
+}
+
